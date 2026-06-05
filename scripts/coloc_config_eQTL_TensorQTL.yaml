@@ -1,0 +1,11 @@
+#Colocalisation
+general_path: "./" # Where is the basedir (e.g, location of cloned repo)
+input_dir: "input/2025_06_11_IBDverse_coloc_all_gwas" # Where are the input (eQTL) files located?
+coloc_output: "results/2025_06_11_IBDverse_coloc_all_gwas" # Wheredo you want to put the output files?
+coloc_phenotypes: ["featureCounts"]
+coloc_window: 2e6
+gwas_dir: "gwas_sumstats_final" # Where are the GWAS files
+gwas_traits: ["IBD", "UC", "CD"]
+gwas_list: "gwas_sumstats_final/gwas_files.txt" # Map of name --> file within thedirectory
+chunks: ["1","2","3","4","5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20"]
+condition_file: "scripts/2025_06_11_IBDverse_coloc_all_gwas/conditions.txt" # List of conditions

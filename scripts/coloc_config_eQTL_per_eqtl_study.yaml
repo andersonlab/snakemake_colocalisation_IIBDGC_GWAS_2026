@@ -1,0 +1,15 @@
+#Colocalisation
+
+eqtl_study: hu_2021 # Name of the eQTL study, or collection, TO BE EDITED
+gwas_study: iibdgc # Name of the GWAS source, TO BE EDITED
+
+input_dir: /path/to/input/eqtl_study/
+
+coloc_output: results/ # Where do you want to put the output files?
+coloc_phenotypes: ["featureCounts"]
+coloc_window: 2e6
+gwas_dir: gwas_sumstats_final/ # Where are the GWAS files
+gwas_traits: ["IBD", "UC", "CD"]
+gwas_list: "gwas_sumstats_final/IBD_gwas_files.txt" # Map of name --> file within the directory
+chunks: ["1","2","3","4","5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20"]
+condition_file: list_conditions.txt # List of conditions

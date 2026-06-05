@@ -1,0 +1,13 @@
+#Colocalisation
+general_path: "/path/to/cloned/repo/" # Where is the basedir (e.g, location of cloned repo)
+input_dir: "/path/to/input/eqtl_study/" # Where are the input files located?
+coloc_output: "/path/to/output/coloc_out/" # Where do you want to put the output files?
+coloc_phenotypes: ["featureCounts"]
+coloc_window: 2e6
+gwas_dir: "/path/to/gwas_sumstats_final/"
+gwas_traits: ["IBD","UC","CD"]
+gwas_list: "/path/to/gwas_sumstats_final/IBD_gwas_files.txt"
+
+chunks: ["1","2","3","4","5","6","7","8","9","10","11","12","13","14","15","16","17","18","19","20"]
+
+conditions: ["label__machine-Tuft_cell-dMean", "label__machine-Stem_cell_MKI67plus_1-dMean"]

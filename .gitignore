@@ -1,0 +1,53 @@
+# R
+.Rhistory
+.RData
+.Rproj.user/
+*.Rout
+*.rds
+*.RDS
+
+# Python
+__pycache__/
+*.py[cod]
+.env
+.venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Genomics data files
+*.vcf
+*.vcf.gz
+*.bcf
+*.bgen
+*.bed
+*.bim
+*.fam
+*.gz
+*.zip
+*.tar
+*.tar.gz
+
+# Singularity containers
+*.sif
+*.simg
+
+# Snakemake
+.snakemake/
+*.snakemake.log
+
+# Logs
+*.log
+*.err
+*.out
+log/
+logs/
+sm_logs/
+
+# Temporary files
+*.tmp
+*.temp
+*~
+
+# macOS
+.DS_Store

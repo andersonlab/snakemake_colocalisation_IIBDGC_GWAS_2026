@@ -1,0 +1,12 @@
+{
+       "run_coloc" :
+       {
+         "queue"     : "normal",
+         "cores"     : "1",
+         "memory"    : 12000,
+         "resources" : "\"select[mem>15000] rusage[mem=15000] span[hosts=1]\"",
+         "name"      : "{wildcards.gwas}_{rule}",
+         "output"    : "log/cluster/{wildcards.gwas}.{wildcards.condition}.{wildcards.coloc_window}.chunk.{wildcards.chunks}.out",
+         "error"     : "log/cluster/{wildcards.gwas}.{wildcards.condition}.{wildcards.coloc_window}.chunk.{wildcards.chunks}.err"
+       }
+}
