@@ -42,7 +42,7 @@ submit_snakemake_per_eqtl_study.sh         # Top-level job submission script
 
 ## Software environment
 
-The Singularity container is available on Zenodo (https://zenodo.org/records/20557380). Download the `.sif` file and update the container path in `scripts/run_coloc_eQTL_per_eqtl_study.smk`:
+The Singularity container is available on Zenodo (https://zenodo.org/records/20560488). Download the `.sif` file and update the container path in `scripts/run_coloc_eQTL_per_eqtl_study.smk`:
 ```bash
 singularity shell colocalization_singularity.sif
 ```
